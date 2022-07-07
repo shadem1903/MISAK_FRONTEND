@@ -1,0 +1,61 @@
+{
+  "name": "vue-chartjs-bar-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@types/file-saver": "^2.0.5",
+    "@vue/composition-api": "^1.6.3",
+    "axios": "^0.26.1",
+    "bootstrap": "^5.1.3",
+    "bootstrap-vue": "^2.22.0",
+    "chart.js": "^3.8.0",
+    "core-js": "^3.8.3",
+    "cors": "^2.8.5",
+    "file-saver": "^2.0.5",
+    "laravel-vue-pagination": "^3.0.0",
+    "pdfjs-dist": "^2.14.305",
+    "sweetalert2": "^11.4.20",
+    "vue": "^2.7.3",
+    "vue-axios": "^3.4.1",
+    "vue-card-carousel": "^1.0.0",
+    "vue-chartjs": "^4.1.1",
+    "vue-glide-js": "^1.3.14",
+    "vue-img-preview": "^1.1.1",
+    "vue-input-search": "^0.0.20",
+    "vue-jasper": "^1.0.10",
+    "vue-paginate": "^3.6.0",
+    "vue-pdf": "^4.3.0",
+    "vue-pdf-app": "^2.1.0",
+    "vue-pdf-embed": "^1.1.1",
+    "vue-pdf-worker-fix": "^4.2.2",
+    "vue-recaptcha": "^2.0.2",
+    "vue-router": "^3.5.1",
+    "vue-search-select": "^2.9.5",
+    "vue-session": "^1.0.0",
+    "vue-sidebar-menu-akahon": "^0.1.4",
+    "vue-slick-carousel": "^1.0.6",
+    "vue2-sidebar": "^0.0.17"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "name2": "vue-chartjs-line-example",
+  "bardependencies": {
+    "vue": "2.6.14",
+    "chart.js": "3.7.1",
+    "vue-chartjs": "^4.0.0"
+  }
+}
