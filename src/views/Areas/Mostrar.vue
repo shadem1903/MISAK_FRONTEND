@@ -28,14 +28,12 @@
                 <b-form-input
                   v-model="filter"
                   type="search"
-                  placeholder="Buscar"
-                >
+                  placeholder="Buscar">
                 </b-form-input>
               </div>
               <br />
             </div>
           </div>
-
           <b-table
             responsive="sm"
             :filter="filter"
@@ -44,8 +42,7 @@
             :fields="fields"
             :per-page="perPage"
             :current-page="currentPage"
-            class="table"
-          >
+            class="table">
             <template #cell(Acciones)="row">
               <b-button
                 variant="warning"

@@ -1,35 +1,28 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-
 import Home from "../views/home/Casa.vue";
 import HomeView from "../views/HomeView.vue";
 import HomeLogin from "../views/Home.vue";
-
 //import Home from '../views/Home.vue'
 import Register from "../views/Register.vue";
 import Dashboard from "../views/material/Dashboard.vue";
 import welcome from "../views/Library.vue";
 import Restablecer from "../views/Restablecer.vue";
-
 import Editar from "../views/material/Editar.vue";
 import Nuevo from "../views/material/Nuevo.vue";
 // componentes para tipo de material
-
 import CrearEditorial from "../views/Editorial/Crear.vue";
 import EditarEditorial from "../views/Editorial/Editar";
 import MostrarEditorial from "../views/Editorial/Mostrar.vue";
-
 //para usuarios
 import Usuarios from "../views/usuarios/usuarios.vue";
 import Unuevo from "../views/usuarios/unuevo.vue";
 import actualizarusuarios from "../views/usuarios/actualizarUsuario.vue";
 import Perfil from "../views/UsuarioU/Perfil.vue";
 //para nivel educativo
-
 import CrearNivelEdicativo from "../views/NivelEducation/Crear.vue";
 import EditarNivelEdicativo from "../views/NivelEducation/Editar.vue";
 import MostrarNivelEdicativo from "../views/NivelEducation/Mostrar.vue";
-
 import Library from "../views/Library.vue";
 //eduard rol
 import Rol from "../views/Rol.vue";
@@ -38,35 +31,27 @@ import Mostrar from "../views/Rol/Mostrar.vue";
 import EditarRol from "../views/Rol/EditarRol.vue";
 import CrearRol from "../views/Rol/CrearRol.vue";
 import Buscarrol from "../views/Rol/Buscar.vue";
-
-
 //para autores
 import CrearAutores from "../views/Autores/Crear.vue";
 import EditarAutores from "../views/Autores/Editar.vue";
 import MostrarAutores from "../views/Autores/Mostrar.vue";
-
 //para tipo material
-
 import MostrarTipoMaterial from "../views/TipoMaterial/Mostrar.vue";
 //para Areas
 import CrearAreas from "../views/Areas/Crear.vue";
 import EditarAreas from "../views/Areas/Editar.vue";
 import MostrarAreas from "../views/Areas/Mostrar.vue";
-
 //para Areas
 import mostarUU from "../views/UsuarioU/comunero.vue";
 import Proceso from "../views/UsuarioU/Proceso.vue";
-
 //reportes
 import Reportes from "../views/reportes/vista.vue";
 import ReportesDescargas from "../views/reportes/Descargas.vue";
 import ReportesVisualizacion from "../views/reportes/Visualizacion.vue";
 import ReportesDocente from "../views/reportes/Docentes.vue";
-
 import Bar from "@/components/charts/Bar.vue";
 import LineChartGenerator from "@/components/charts/Line.vue";
 import Doughnut from "@/components/charts/Doughnut.vue";
-
 //ver pdf
 import Pdf from "../views/UsuarioU/Pdf.vue";
 // daniel cruz
@@ -84,9 +69,7 @@ import Menu from "../components/Menu.vue";
 import MenuAdmin from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
 import Contenidocasa from "../components/Contenidocasa.vue";
-
 Vue.use(VueRouter);
-
 const routes = [
   {
     path: "/usuarios",
